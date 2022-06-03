@@ -12,7 +12,7 @@ function Home() {
         <h2 className='text-2xl sm:text-3xl font-bold text-[#adadad]'>
           I'm a FrontEnd Developer
         </h2>
-        <p className='text-[#adadad] text-xl py-4 max-w-[700px] tracking-wider sm:tracking-normal sm:py-2'>
+        <p className='text-[#adadad] text-sm py-4 max-w-[700px] tracking-wider sm:tracking-normal sm:text-xl sm:py-2'>
           I'm a developer who is love with React.js, I enjoy building beautiful
           Ui's to provide exceptional functionality, Currently im focused on
           building responsive front-end web applications..
