@@ -8,14 +8,14 @@ import Tailwind from '../Assets/Tailwind.png'
 
 function Skills() {
   return (
-    <div name='skills' className='bg-[#044343] text-[#adadad]'>
+    <div name='skills' className='bg-[#044343] text-[#adadad] h-screen'>
       {/* the main container for skills */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-[#EB596E]  py-4'>
-            Experience
+          <p className='text-4xl font-bold inline border-b-4 border-[#EB596E] py-2'>
+            Skills
           </p>
-          <p className='py-4'>
+          <p className='py-2 my-4'>
             These are the elements that i use in my arsenal
           </p>
         </div>

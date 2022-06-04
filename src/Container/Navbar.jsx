@@ -8,6 +8,7 @@ import {
   FaUserCircle,
 } from 'react-icons/fa'
 import { MdMail } from 'react-icons/md'
+import { Link } from 'react-scroll'
 
 function Navbar() {
   const [nav, setNav] = useState(false)
@@ -21,11 +22,31 @@ function Navbar() {
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to='home' smooth={true} duration={300}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={300}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='skills' smooth={true} duration={300}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={300}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={300}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* hamburger */}
@@ -41,11 +62,36 @@ function Navbar() {
             : 'absolute top-0 left-0 w-full h-screen bg-[#044343] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Projects</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='home' smooth={true} duration={300}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='about' smooth={true} duration={300}>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='skills' smooth={true} duration={300}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link
+            onClick={handleClick}
+            to='projects'
+            smooth={true}
+            duration={300}
+          >
+            Projects
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='contact' smooth={true} duration={300}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       <div className='hidden lg:flex fixed flex-col top-[15%] left-0'>
@@ -56,7 +102,7 @@ function Navbar() {
           >
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/saurabhkedar681993/'
             >
               LinkedIn
               <FaLinkedin size={30} />
@@ -69,7 +115,7 @@ function Navbar() {
           >
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/saurabh6893/'
             >
               Github
               <FaGithub size={30} />
@@ -95,7 +141,7 @@ function Navbar() {
           >
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://saurabh6893.github.io/Resume/'
             >
               Resume
               <FaUserCircle size={30} />
