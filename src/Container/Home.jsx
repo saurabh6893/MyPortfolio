@@ -6,8 +6,11 @@ function Home() {
   return (
     <div name='home' className='w-full h-screen bg-[#044343]'>
       <div className='max-w-[80%] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-[#FF2E63] text-3xl font-bold tracking-widest'>Hi,</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#EEEEEE] font-Lobster'>
+        <p className='text-[#FF2E63] text-4xl font-bold tracking-widest'>
+          Hello,
+        </p>
+        <p className='text-xl sm:text-2xl font-bold text-[#adadad] m-2'>I am</p>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#EEEEEE] content-x'>
           Saurabh Kedar
         </h1>
         <h2 className='text-2xl sm:text-3xl font-bold text-[#adadad]'>
