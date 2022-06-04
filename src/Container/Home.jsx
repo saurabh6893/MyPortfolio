@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaRegArrowAltCircleRight } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 function Home() {
   return (
@@ -19,7 +20,9 @@ function Home() {
         </p>
         <div>
           <button className='text-white text-xl border-2 px-6 py-4 my-5 flex items-center font-bold hover:bg-[#EB596E] hover:border-[#EB596E]'>
-            View Projects
+            <Link to='projects' smooth={true} duration={300}>
+              View Projects
+            </Link>
             <FaRegArrowAltCircleRight
               className='ml-5 hover:ml-7 duration-500'
               size={30}
