@@ -30,16 +30,22 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js-Json server
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                Taskbox
+              </h1>
+              <span className='text-gray-300 tracking-wider'>
+                React.Js / Json server
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button
+                    disabled
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-gray-500 text-gray-700 font-bold text-lg'
+                  >
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/saurabh6893/TaskBox'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -54,16 +60,17 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js
-              </span>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                2048
+              </h1>
+              <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://saurabh6893.github.io/2048/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/saurabh6893/2048'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -78,16 +85,17 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js
-              </span>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                WeatherBox
+              </h1>
+              <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://saurabh6893.github.io/WeatherBox/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/saurabh6893/WeatherBox'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -102,9 +110,10 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js
-              </span>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                Snake-Supreme
+              </h1>
+              <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -126,9 +135,10 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js
-              </span>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                ExpenseTracker
+              </h1>
+              <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
@@ -150,16 +160,17 @@ function Projects() {
           >
             {/* hover effects ahead */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React.Js
-              </span>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                JumpQuest
+              </h1>
+              <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://saurabh6893.github.io/theSnakeSupreme/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/saurabh6893/theSnakeSupreme'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
