@@ -128,7 +128,7 @@ function Navbar() {
           >
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='mailto:saurabhkedar@gmail.com'
+              href='/'
             >
               Email
               <MdMail size={30} />

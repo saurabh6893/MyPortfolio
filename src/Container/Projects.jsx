@@ -3,7 +3,7 @@ import Taskbox from '../projectimgs/Taskbox.png'
 import g2048 from '../projectimgs/2048.png'
 import expt from '../projectimgs/expt.png'
 import ss from '../projectimgs/ss.png'
-import wthr from '../projectimgs/wthr.png'
+import blogf from '../projectimgs/blogf.png'
 import jq from '../projectimgs/jumpquest.png'
 
 function Projects() {
@@ -46,7 +46,7 @@ function Projects() {
                   </button>
                 </a>
                 <a href='https://github.com/saurabh6893/TaskBox'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white  hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -66,37 +66,12 @@ function Projects() {
               <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='https://saurabh6893.github.io/2048/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white  hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/saurabh6893/2048'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${wthr})` }}
-            className='shadow-lg shadow-[#222831] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* hover effects ahead */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <h1 className='text-2xl font-bold text-white tracking-wider'>
-                WeatherBox
-              </h1>
-              <span className='text-gray-300 tracking-wider'>Javascript</span>
-              <div className='pt-8 text-center'>
-                <a href='https://saurabh6893.github.io/WeatherBox/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/saurabh6893/WeatherBox'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white   hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -116,16 +91,47 @@ function Projects() {
               <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center  hover:bg-[#92B4EC] rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center  hover:bg-[#92B4EC] rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
               </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${blogf})` }}
+            className='shadow-lg shadow-[#222831] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* hover effects ahead */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <h1 className='text-2xl font-bold text-white tracking-wider'>
+                BlogF
+              </h1>
+              <span className='text-gray-300 tracking-wider'>
+                React-Firebase
+              </span>
+
+              <div className='pt-8 text-center'>
+                <a href='https://blog-6893.firebaseapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white  hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/saurabh6893/BlogX-alpha'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white   hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+              <span className='text-gray-300 tracking-wider'>
+                firebase:quota exhausted
+              </span>
             </div>
           </div>
 
@@ -141,12 +147,12 @@ function Projects() {
               <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg  hover:bg-[#92B4EC] px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center  hover:bg-[#92B4EC] rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -166,12 +172,12 @@ function Projects() {
               <span className='text-gray-300 tracking-wider'>Javascript</span>
               <div className='pt-8 text-center'>
                 <a href='https://saurabh6893.github.io/theSnakeSupreme/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center  hover:bg-[#92B4EC] rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='https://github.com/saurabh6893/theSnakeSupreme'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center  hover:bg-[#92B4EC] rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>

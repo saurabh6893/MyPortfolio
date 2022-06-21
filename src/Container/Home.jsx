@@ -16,10 +16,10 @@ function Home() {
         <h2 className='text-2xl sm:text-3xl font-bold text-[#adadad]'>
           I'm a FrontEnd Developer
         </h2>
-        <p className='text-[#adadad] text-sm py-4 max-w-[700px] tracking-wider sm:tracking-normal sm:text-xl sm:py-2'>
-          I'm a developer who is love with React.js, I enjoy building beautiful
-          Ui's to provide exceptional functionality, Currently im focused on
-          building responsive front-end web applications..
+        <p className='text-[#adadad] text-sm py-4 max-w-[700px] mt-4 tracking-wider sm:tracking-normal sm:text-xl sm:py-2'>
+          I'm a developer who is in love with React.js, I enjoy building
+          beautiful Ui's to provide exceptional functionality, Currently im
+          focused on building responsive front-end web applications..
         </p>
         <div>
           <button className='text-white text-xl border-2 px-6 py-4 my-5 flex items-center font-bold hover:bg-[#EB596E] hover:border-[#EB596E]'>
