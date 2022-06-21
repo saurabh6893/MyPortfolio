@@ -1,8 +1,29 @@
 import React from 'react'
 import { FaRegArrowAltCircleRight } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import useTypewriterEffect, {
+  getTypewriter,
+  useCursor,
+} from 'use-typewriter-effect'
 
 function Home() {
+  const [state, dispatch, isTyping] = useTypewriterEffect()
+  const cursor = useCursor(isTyping)
+
+  React.useEffect(() => {
+    getTypewriter(dispatch)
+      .type(` I'm a FrontEnd Developer`)
+      .pauseFor(700)
+      .deleteSome('18')
+      .type(`Mern Stack Enthusiast`)
+      .pauseFor(700)
+      .deleteAll()
+      .setLoop(true)
+      .trigger()
+
+    // React guaranties that dispatch reference is stable, so we can safely
+    // declare it as a dependency
+  }, [dispatch])
   return (
     <div name='home' className='w-full h-screen bg-[#044343]'>
       <div className='max-w-[80%] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -14,7 +35,14 @@ function Home() {
           Saurabh Kedar
         </h1>
         <h2 className='text-2xl sm:text-3xl font-bold text-[#adadad]'>
-          I'm a FrontEnd Developer
+          <main>
+            <p>
+              {state}
+              <span
+                style={{ visibility: cursor ? 'visible' : 'hidden' }}
+              ></span>
+            </p>
+          </main>
         </h2>
         <p className='text-[#adadad] text-sm py-4 max-w-[700px] mt-4 tracking-wider sm:tracking-normal sm:text-xl sm:py-2'>
           I'm a developer who is in love with React.js, I enjoy building
