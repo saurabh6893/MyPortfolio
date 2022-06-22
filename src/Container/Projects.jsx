@@ -118,7 +118,7 @@ function Projects() {
               </span>
 
               <div className='pt-8 text-center'>
-                <a href='https://blog-6893.firebaseapp.com/'>
+                <a href='https://blog-6893.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white  hover:bg-[#92B4EC] text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
@@ -129,9 +129,9 @@ function Projects() {
                   </button>
                 </a>
               </div>
-              <span className='text-gray-300 tracking-wider'>
+              {/* <span className='text-gray-300 tracking-wider'>
                 firebase:quota exhausted
-              </span>
+              </span> */}
             </div>
           </div>
 
