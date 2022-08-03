@@ -59,6 +59,11 @@ function Home() {
               size={30}
             />
           </button>
+          <div className='loader'>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
